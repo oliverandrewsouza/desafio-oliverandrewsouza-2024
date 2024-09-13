@@ -56,7 +56,7 @@ class RecintosZoo {
     }
 }
 
-export default RecintosZoo;
+export { RecintosZoo as RecintosZoo };
 
 const zoo = new RecintosZoo();
 console.log(zoo.analisaRecintos('MACACO', 2)); 
