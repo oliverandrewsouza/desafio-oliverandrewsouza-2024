@@ -59,12 +59,12 @@ class RecintosZoo {
 export default RecintosZoo;
 
 const zoo = new RecintosZoo();
-console.log(zoo.analisaRecintos('MACACO', 2)); // Testa com macacos
-console.log(zoo.analisaRecintos('LEAO', 2));   // Testa com leões
-console.log(zoo.analisaRecintos('HIPOPOTAMO', 1)); // Testa com hipopótamos
-console.log(zoo.analisaRecintos('UNICORNIO', 1)); // Testa com animal inválido
-console.log(zoo.analisaRecintos('MACACO', -1)); // Testa com quantidade inválida
-console.log(zoo.analisaRecintos('MACACO', 10)); // Espera-se "Não há recinto viável"
-console.log(zoo.analisaRecintos('MACACO', 0));  // Espera-se "Quantidade inválida"
-console.log(zoo.analisaRecintos('MACACO', -5)); // Espera-se "Quantidade inválida"
-console.log(zoo.analisaRecintos('GAZELA', 3)); // Verifica se o código considera o máximo possível
+console.log(zoo.analisaRecintos('MACACO', 2)); 
+console.log(zoo.analisaRecintos('LEAO', 2));  
+console.log(zoo.analisaRecintos('HIPOPOTAMO', 1)); 
+console.log(zoo.analisaRecintos('UNICORNIO', 1)); 
+console.log(zoo.analisaRecintos('MACACO', -1)); 
+console.log(zoo.analisaRecintos('MACACO', 10)); 
+console.log(zoo.analisaRecintos('MACACO', 0));  
+console.log(zoo.analisaRecintos('MACACO', -5)); 
+console.log(zoo.analisaRecintos('GAZELA', 3)); 
